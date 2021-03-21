@@ -1,0 +1,11 @@
+.blogpost { 
+    width: 300px; 
+    border: 1px solid black; 
+}
+
+.oefen-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> contactpagina </title>
+</head>
+
+<body>
+  <header>
+    <h1>Dit is mijn contactpagina</h1>
+  </header>
+
+  <main>
+    <h3>Vul onderstaand formulier in om contact op te nemen</h3>
+
+    <form name="contact" method="POST" data-netlify="true">
+      <label for="name">Naam:</label><br>
+      <input type="text" id="name" name="name" /><br>
+      <br>
+      <label for="email">Email:</label><br>
+      <input type="text" id="email" name="email" /><br>
+      <br>
+      <label for="tekstveld">Tekstveld:</label><br>
+      <textarea type="text" id="tekstveld" name="tekstveld" rows="10" cols="50"></textarea><br>
+      <br>
+      <button type="submit">Verzenden</button>
+    </form>
+
+    <h3>Loop het onderstaande formulier door om uw recept te plaatsen</h3>
+
+    <form name="contact" method="POST" data-netlify="true">
+      <label for="name1">Naam:</label><br>
+      <input type="text" id="name1" name="name1" /><br>
+      <br>
+      <label for="email1">Email:</label><br>
+      <input type="email" id="email1" name="email1"><br>
+      <br>
+      <label for="tel">Telefoonnummer:</label><br>
+      <input type="tel" id="tel" name="tel" /><br>
+      <br>
+      <label for="age">Leeftijd:</label><br>
+      <input type="number" id="age" name="age" /><br>
+      <br>
+      <label for="birthday">Geboortedatum:</label><br>
+      <input type="date" id="birthday" name="birthday" /><br>
+      <br>
+      <label for="gender">Geslacht:</label><br>
+      <input type="radio" id="gender" name="gender" />Man<br>
+      <input type="radio" name="gender" />Vrouw<br>
+      <br>
+      <label for="fav">Favoriete Cuisine:</label><br>
+      <input type="checkbox" id="fav" name="fav" />Frans<br>
+      <input type="checkbox" name="fav" />Italiaans<br>
+      <input type="checkbox" name="fav" />Spaans<br>
+      <input type="checkbox" name="fav" />Arabisch<br>
+      <br>
+      <label for="favcol">Favoriete kleur van short:</label><br>
+      <input type="color" id="favcol" name="favcol" />
+      <br>
+      <label for="bio">Korte biografie:</label><br>
+      <textarea type="text" id="bio" name="bio" rows="20" cols="50"></textarea><br>
+      <br>
+      <label for="upload">Upload hier je recept:</label><br>
+      <input type="file" id="upload" name="upload" /><br>
+      <br>
+      <label for="url">Vul hier de URL naar je receptenwebsite in:</label><br>
+      <input type="url" id="url" name="url" /><br>
+      <br>
+      <button type="submit">Verzenden</button>
+      <button type="reset">Reset het formulier</button>
+    </form>
+  </main>
+
+  <br>
+
+  <a href="index.html">Om terug te gaan naar de Hompage</a>
+  <br>
+  <br>
+
+  <footer>
+    copyright Naoufal 2021
+  </footer>
+</body>
+
+</html>

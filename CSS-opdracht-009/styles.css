@@ -1,0 +1,42 @@
+body {
+   color: #ff9900;
+   background-color: #3399ff;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.orange-border {
+    border: 5px solid orange;
+    margin: 15px;
+    padding: 10px 20px 10px 20px;
+}
+
+.orange-border-1 {
+    border: 5px solid orange;
+    margin: 30px auto;
+    width: 80%;
+    padding: 10px 20px 10px 20px;
+}
+
+.box-1{
+    background: white;
+}
+
+.menu li {
+    display:inline;
+    padding: 10px;
+    background-color: #ddd;
+    margin: 10px;
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: green;
+        color: greenyellow;
+        font-size: 60%;
+        line-height: 1.5rem;
+    }
+}
+
+.blogpost { 
+    width: 300px; border: 1px solid black; 
+}
